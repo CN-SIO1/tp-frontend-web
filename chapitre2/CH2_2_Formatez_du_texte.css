@@ -1,0 +1,72 @@
+p {
+    text-indent : 20px;
+    line-height:20px;
+    margin-top:20px;
+    margin-bottom:20px;
+}
+
+.gros-titre {
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    background-color: yellow;
+    text-align: center ;
+}
+
+.deux-lignes-suivantes {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    color: blueviolet;
+    text-align: center;
+    line-height: 20px;
+}
+
+.deux-paragraphes-qui-suivent {
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-indent: 20px;
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+.petits-titres {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: blue;
+    font-weight: bold; 
+}
+
+.autre-paragraphe {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 12px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    margin-left: 1cm;
+    margin-right: 1cm;
+}
+
+.nouveaux-sous-titres {
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.bas-de-page {
+    text-indent: 12px;
+    font-style: italic;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.on-s-ennuie {
+    font-style: italic;
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+
+.dernier-texte-avant-un-autre-exo-de-formattage-tout-aussi-inutile {
+    margin-top: 10px;
+    margin-bottom: 20px;
+    color: aqua;
+}
