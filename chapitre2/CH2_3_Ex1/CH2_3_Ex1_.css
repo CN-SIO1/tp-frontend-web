@@ -1,0 +1,17 @@
+.fatass-violet {
+    color: blueviolet;
+}
+
+.les-feuilles-mortes {
+    font-style: italic;
+}
+
+.autre-image {
+    padding-left: 40%;
+    position: fixed;
+}
+
+body {
+    background-image: url(assets/maxwellcat-small.png);
+    background-repeat: repeat;
+}
