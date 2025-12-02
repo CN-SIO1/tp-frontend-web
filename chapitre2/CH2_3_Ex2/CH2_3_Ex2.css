@@ -1,0 +1,25 @@
+body {
+    background-image: url(assets/pinguin.gif);
+    background-repeat: no-repeat;
+    position:absolute;
+    background-size: cover;
+    background-color: blueviolet;
+    color: white;
+}
+
+.la-section-du-texte {
+    background-color: rgba(0, 255, 255, 0.144);
+}
+
+.article {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    text-align: justify;
+    justify-content: center;
+    background-image: url(assets/pengi.svg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-color: rgba(0, 255, 255, 0.356);
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
