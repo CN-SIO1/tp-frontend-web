@@ -1,3 +1,6 @@
+## Thème choisi :
+***Rosebones***
+
 ### Theme Dark
 
 ```vim
@@ -39,3 +42,6 @@
     let g:terminal_color_14 = '#407D88'
     let g:terminal_color_15 = '#A4635F'
 ```
+
+**URL de référence :**
+``https://vimcolorschemes.com/zenbones-theme/zenbones.nvim``
