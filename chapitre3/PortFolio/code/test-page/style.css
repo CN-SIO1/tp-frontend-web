@@ -1,0 +1,133 @@
+@font-face {
+    font-family: jb-regular;
+    src: url(../../assets/fonts/jetbrainmono/JetBrainsMono-Regular.ttf);
+}
+
+@font-face {
+    font-family: jbi-regular;
+    src: url(../../assets/fonts/jetbrainmono/JetBrainsMono-Italic.ttf);
+}
+
+@font-face {
+    font-family: jb-light;
+    src: url(../../assets/fonts/jetbrainmono/JetBrainsMono-Light.ttf);
+}
+
+@font-face {
+    font-family: jbi-light;
+    src: url(../../assets/fonts/jetbrainmono/JetBrainsMono-LightItalic.ttf);
+}
+
+@font-face {
+    font-family: jb-thin;
+    src: url(../../assets/fonts/jetbrainmono/JetBrainsMono-Thin.ttf);
+}
+
+@font-face {
+    font-family: jbi-thin;
+    src: url(../../assets/fonts/jetbrainmono/JetBrainsMono-ThinItalic.ttf);
+}
+
+@font-face {
+    font-family: jb-medium;
+    src: url(../../assets/fonts/jetbrainmono/JetBrainsMono-Medium.ttf);
+}
+
+@font-face {
+    font-family: jbi-medium;
+    src: url(../../assets/fonts/jetbrainmono/JetBrainsMono-MediumItalic.ttf);
+}
+
+@font-face {
+    font-family: jb-semibold;
+    src: url(../../assets/fonts/jetbrainmono/JetBrainsMono-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: jbi-semibold;
+    src: url(../../assets/fonts/jetbrainmono/JetBrainsMono-SemiBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: jb-extrabold;
+    src: url(../../assets/fonts/jetbrainmono/JetBrainsMono-ExtraBold.ttf);
+}
+
+@font-face {
+    font-family: jbi-extrabold;
+    src: url(../../assets/fonts/jetbrainmono/JetBrainsMono-ExtraBoldItalic.ttf);
+}
+
+@font-face {
+    font-family: mt-regular;
+    src: url(../../assets/fonts/montserrat/Montserrat-Regular.ttf);
+}
+
+@font-face {
+    font-family: mti-regular;
+    src: url(../../assets/fonts/montserrat/Montserrat-Italic.ttf);
+}
+
+@font-face {
+    font-family: mt-semibold;
+    src: url(../../assets/fonts/montserrat/Montserrat-SemiBold.ttf);
+}
+
+@font-face {
+    font-family: mt-extrabold;
+    src: url(../../assets/fonts/montserrat/Montserrat-ExtraBold.ttf);
+}
+
+body {
+    background-color: #FBF6F0;
+    color: #724341;
+    font-family: jb-thin;
+}
+
+.italic {
+    font-family: jbi-thin;
+    color: #E8C48B;
+}
+
+.gras {
+    font-family: jb-regular;
+}
+
+.gras-italic {
+    font-family: jbi-regular;
+}
+
+.black {
+    font-family: jb-medium;
+}
+
+.grand-titre {
+    font-family: mt-extrabold;
+}
+
+.moyen-titre {
+    font-family: mt-semibold;
+}
+
+.highlight-froid {
+    font-family: jb-light;
+    color: #286A84;
+}
+
+.highlight-legers-chaud {
+    font-family: jb-light;
+    color: #A4635F;
+}
+
+.highlight-chaud {
+    font-family: jb-light;
+    color: #B5637A;
+}
+
+.mauve {
+    color: #917BA9;
+}
+
+.bleu-pale {
+    color: #5795A0;
+}
