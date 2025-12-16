@@ -132,9 +132,21 @@ body::before {
     color: #286A84;
 }
 
+.highlight-froid:hover {
+    font-family: jb-light;
+    color: #498197;
+    text-shadow: 0 0 10px #aec8d3, 0 0 20px #6c99ac, 0 0 40px #286A84, 0 0 80px #286A84;
+}
+
 .highlight-legers-chaud {
     font-family: jb-light;
     color: #A4635F;
+}
+
+.highlight-legers-chaud:hover {
+    font-family: jb-light;
+    color: #b38381;
+    text-shadow: 0 0 10px #A4635F, 0 0 20px #A4635F, 0 0 40px #A4635F, 0 0 80px #A4635F;
 }
 
 .highlight-chaud {
