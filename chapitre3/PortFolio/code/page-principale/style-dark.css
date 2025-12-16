@@ -79,9 +79,10 @@
 }
 
 body {
-    background-color: #FBF6F0;
-    color: #724341;
+    background-color: #1A1825;
+    color: #E1D4D4;
     font-family: jb-thin;
+    font-size: 15px;
 }
 
 body::before {
@@ -96,7 +97,7 @@ body::before {
     background: url(../../assets/GIFs_IMGs/noise.gif);
     background-size: 200px 200px;
     background-repeat: repeat;
-    opacity: 0.4;
+    opacity: 0.15;
     mix-blend-mode: soft-light;
     z-index: 1;
     pointer-events: none;
@@ -104,7 +105,7 @@ body::before {
 
 .italic {
     font-family: jbi-thin;
-    color: #E8C48B;
+    color: #3A3651;
 }
 
 .gras {
@@ -129,35 +130,48 @@ body::before {
 
 .highlight-froid {
     font-family: jb-light;
-    color: #286A84;
+    color: #317490;
+    text-decoration: none;
 }
 
 .highlight-froid:hover {
     font-family: jb-light;
-    color: #498197;
-    text-shadow: 0 0 10px #aec8d3, 0 0 20px #6c99ac, 0 0 40px #286A84, 0 0 80px #286A84;
+    color: #8eabb8;
+    text-shadow: 0 0 10px #317490, 0 0 20px #317490, 0 0 40px #317490, 0 0 80px #317490;
+    text-decoration: none;
 }
 
 .highlight-legers-chaud {
-    font-family: jb-light;
-    color: #A4635F;
+    font-family: jb-regular;
+    color: #BF9B99;
+    text-decoration: none;
 }
 
 .highlight-legers-chaud:hover {
-    font-family: jb-light;
-    color: #b38381;
-    text-shadow: 0 0 10px #b38381, 0 0 20px #b38381, 0 0 40px #A4635F, 0 0 80px #A4635F;
+    font-family: jb-regular;
+    color: #cab4b2;
+    text-shadow: 0 0 10px #BF9B99, 0 0 20px #BF9B99, 0 0 40px #BF9B99, 0 0 80px #BF9B99;
+    text-decoration: none;
 }
 
 .highlight-chaud {
     font-family: jb-light;
-    color: #B5637A;
+    color: #F289A4;
+    text-decoration: none;
 }
 
 .mauve {
-    color: #917BA9;
+    color: #CEB3EF;
 }
 
 .bleu-pale {
-    color: #5795A0;
+    color: #94DAE6;
+}
+
+.nom-prenom {
+    font-family: jb-regular;
+    color: #1A1825;
+    background-color: #E1D4D4;
+    text-decoration: none;
+    text-align: justify;
 }
