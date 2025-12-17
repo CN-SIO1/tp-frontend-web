@@ -83,6 +83,13 @@ body {
     color: #E1D4D4;
     font-family: jb-thin;
     font-size: 15px;
+    text-align: justify;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    padding-left: 23rem;
+    padding-right: 23rem;
+    padding-top: 8rem;
+    padding-bottom: 5rem;
 }
 
 body::before {
@@ -174,4 +181,30 @@ body::before {
     background-color: #E1D4D4;
     text-decoration: none;
     text-align: justify;
+    margin-left: -1rem;
+    margin-right: -1rem;
+}
+
+.img-cv {
+    box-shadow: 0 0 20px #e1d4d444;
+    width: 310.25px;
+    height: 438.75px;
+}
+
+.img-cv:hover {
+    animation-name: scale;
+    animation-duration: 0.3s;
+    animation-timing-function: ease;
+    animation-fill-mode: forwards;
+}
+
+@keyframes scale{
+    0%{
+        box-shadow: 0 0 20px #E1D4D444;
+    }
+    100%{
+        transform: scale(0.6);
+        scale: 2;
+        box-shadow: 0 0 80px #E1D4D444;
+    }
 }
