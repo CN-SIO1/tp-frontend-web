@@ -90,6 +90,11 @@ body {
     padding-right: 23rem;
     padding-top: 8rem;
     padding-bottom: 5rem;
+    background-image: url(../../assets/images/cadre.png);
+    background-repeat: no-repeat;
+    background-size: 857px 414.5px;
+    background-position-x: center;
+    background-position-y: 6.75rem;
 }
 
 body::before {
@@ -133,10 +138,12 @@ p {
 
 .grand-titre {
     font-family: mt-extrabold;
+    text-align: center;
 }
 
 .moyen-titre {
     font-family: mt-semibold;
+    text-align: center;
 }
 
 .highlight-froid {
@@ -182,7 +189,6 @@ p {
 .nom-prenom {
     font-family: jb-regular;
     color: #E8C48B;
-    background-color: #502f2e;
     text-decoration: none;
     text-align: center;
     margin-left: -1rem;
@@ -211,4 +217,19 @@ p {
         scale: 2;
         box-shadow: 0 0 80px #72434177;
     }
+}
+
+.presentation {
+    padding-left: 25.5rem;
+    padding-right: 13.6rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.pp {
+    position: absolute;
+    height: 245.2px;
+    width: 163.9px;
+    padding-left: 13.6rem;
+    padding-top: 1rem;
 }
